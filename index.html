@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личная страница Авитолога</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1A1A2E;
+            color: #FFF;
+        }
+        header {
+            background-color: #0F3460;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+            background-color: #16213E;
+        }
+        nav a {
+            color: #FFF;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: #0F3460;
+            text-align: center;
+            padding: 10px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input, .form-group textarea, .form-group button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        .form-group textarea {
+            resize: none;
+        }
+        button {
+            background-color: #16213E;
+            color: #FFF;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #1A1A2E;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Авитолог с опытом более 5 лет</h1>
+    </header>
+    <nav>
+        <a href="#about">Обо мне</a>
+        <a href="#portfolio">Портфолио</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#services">Услуги</a>
+        <a href="#contact">Связаться</a>
+    </nav>
+    <section id="about">
+        <div class="container">
+            <h2>Обо мне</h2>
+            <p>Я профессиональный авитолог с опытом более 5 лет. Специализируюсь на рекламе, продвижении и размещении объявлений на Авито. Работаю с частными клиентами и компаниями, предоставляя качественные и эффективные услуги.</p>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="container">
+            <h2>Портфолио</h2>
+            <p>Примеры выполненных проектов:</p>
+            <ul>
+                <li>Создание и продвижение объявления для строительной компании</li>
+                <li>Оптимизация и увеличение продаж для магазина бытовой техники</li>
+                <li>Размещение и настройка рекламных кампаний для частных мастеров</li>
+            </ul>
+        </div>
+    </section>
+    <section id="reviews">
+        <div class="container">
+            <h2>Отзывы</h2>
+            <p>Отзывы довольных клиентов:</p>
+            <ul>
+                <li>«Сотрудничество превзошло ожидания, продажи выросли на 30%!»</li>
+                <li>«Отличный специалист, всё настроено быстро и профессионально.»</li>
+                <li>«Рекомендую, работа выполнена на 100%.»</li>
+            </ul>
+        </div>
+    </section>
+    <section id="services">
+        <div class="container">
+            <h2>Услуги</h2>
+            <ul>
+                <li>Размещение объявлений — 500 рублей/объявление</li>
+                <li>Настройка рекламных кампаний — от 3000 рублей</li>
+                <li>Продвижение объявлений — от 2000 рублей</li>
+            </ul>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Связаться со мной</h2>
+            <p>Телефон: <a href="tel:89003099305" style="color: #FFF;">89003099305</a></p>
+            <p>Почта: <a href="mailto:arut.melikyan.00@mail.ru" style="color: #FFF;">arut.melikyan.00@mail.ru</a></p>
+            <p>Telegram/WhatsApp: <a href="tel:89003099305" style="color: #FFF;">89003099305</a></p>
+            <form action="https://example.com/send" method="post">
+                <div class="form-group">
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Почта:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Сообщение:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Отправить</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>© 2025 Авитолог | Все права защищены</p>
+    </footer>
+</body>
+</html>
+#добавил сайт
